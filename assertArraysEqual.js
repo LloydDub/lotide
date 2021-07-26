@@ -1,4 +1,3 @@
-
 function eqArrays(array1, array2) {
 
   for(let i = 0; i < array1.length; i++){
@@ -6,8 +5,7 @@ function eqArrays(array1, array2) {
       return false;
     }
   }
-  return true;
- 
+  return true; 
 }
 let assertArraysEqual = function (array1, array2) {
   let result = eqArrays(array1, array2)
@@ -15,9 +13,7 @@ let assertArraysEqual = function (array1, array2) {
     console.log(`✅✅✅ Assertion Passed: ${array1} === ${array2}`);    
   } else {
     console.log(`🛑🛑🛑 Assertion Failed: ${array1} !== ${array2}`);
-  }
-
-  
+  }  
 }
 
 
