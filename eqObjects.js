@@ -31,31 +31,4 @@ function isObject(object) {
   return object != null && typeof object === 'object';
 }
 
-
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-
-console.log(eqObjects(ab, ba)); // => true
-
-console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-
-
-const abc = { a: "1", b: "2", c: "3" };
-console.log(eqObjects(ab, abc)); // => false
-
-
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-console.log(eqObjects(cd, dc)); // => true
-
-const cd2 = { c: "1", d: ["2", 3, 4] };
-console.log(eqObjects(cd, cd2)); // => false
-
-
-// loops over the objects
-// after the loop it will compare key:value
-
-// They have the same number of keys
-//The value for each key in one object is the same as the value for that same key in the other object
-
-// posistion doesn't matter
+module.exports = eqObjects;

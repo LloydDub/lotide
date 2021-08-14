@@ -5,3 +5,6 @@ const findKeyByValue = function(object, value) {
     if (object[element] === value) return element;
   }
 };
+
+
+module.exports = findKeyByValue;

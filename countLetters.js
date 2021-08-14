@@ -29,10 +29,6 @@ const countLetters =  function(word){
 	return count;
 };
 
-const frequency = countLetters("lloyd Worth");
-
-console.log(frequency["y"])
-
-assertEqual(frequency["y"], 1)
+module.exports = countLetters
 
 

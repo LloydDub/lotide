@@ -28,7 +28,7 @@ return results;
 
 }
 
-
+module.exports = countOnly;
 
 const firstNames = [
   "Karl",

@@ -40,3 +40,4 @@ const letterPositions = function(sentence) {
 
 letterPositions('hello there');
 
+module.exports = letterPositions;
