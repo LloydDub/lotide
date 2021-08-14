@@ -52,3 +52,6 @@ console.log(results2);
 
 
 // runMyFunc(addNumber)
+
+
+module.exports = takeUntil;
